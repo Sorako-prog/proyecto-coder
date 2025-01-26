@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'AdihausDIN';
+    /* Nombre de la fuente */
+    src: url('../fonts/adihousdin_regular.otf') format('opentype');
+    /* Regular */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdihausDIN';
+    /* Nombre de la fuente */
+    src: url('../fonts/adihousdin_bold.otf') format('opentype');
+    /* Bold */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AdihausDIN';
+    /* Nombre de la fuente */
+    src: url('../fonts/adihausdin_cn.ttf') format('truetype');
+    /* Condensed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'AdihausDIN', Arial, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

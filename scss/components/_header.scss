@@ -1,0 +1,28 @@
+header{
+    background-color: #fcfcfc;
+    color: #000;
+    position: sticky;
+
+    .logo{
+        width: 100px;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+    }
+
+    li{
+        padding: 5px;
+        text-transform: uppercase;
+        border-bottom: 2px solid transparent;
+    }
+
+    li:hover{
+        transform: scale(1.2);
+        border-bottom: 2px solid #000;
+        transition: border-bottom 0.4s ease;
+        transition: transform 0.4s ease;
+    }
+    .material-symbols-outlined{
+        font-size: 2rem;
+    }
+}
